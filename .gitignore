@@ -1,17 +1,25 @@
-node_modules/
-dist/
-__pycache__/
+# Model files (large - tidak diupload ke GitHub)
+backend/*.safetensors
+backend/*.pkl
+backend/config.json
+backend/tokenizer.json
+backend/tokenizer_config.json
+*.pkl
+*.safetensors
+
+# Python
+backend/venv/
+backend/__pycache__/
 *.pyc
-
-.venv/
-venv/
-
 .env
 
+# Node
 frontend/node_modules/
-frontend/dist/
+dist/
+build/
+*.log
 
-backend/__pycache__/
-backend/model/
-
+# IDE
+.vscode/
+.idea/
 .DS_Store
